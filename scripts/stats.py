@@ -4,21 +4,25 @@ print('opening file')
 # Reading the data inside the xml
 # file to a variable under the name 
 # data
-with open('D:\healthdata/apple_health_export/export_cda.xml', 'r') as f:
+# with open('D:\healthdata/apple_health_export/export_cda.xml', 'r') as f:
+#     data = f.read()
+
+with open('D:\healthdata/test_data/export_test.xml') as f:
     data = f.read()
 
 print('adding file to BeatifulSoup')
 # Passing the stored data inside
 # the beautifulsoup parser, storing
 # the returned object 
-Bs_data = BeautifulSoup(data, "xml")
+health_data = BeautifulSoup(data, "xml")
 
 print('searching for title')
-print(Bs_data.title)
+export_date = health_data.find('ExportDate')
+print(export_date['value'])
 
 # Finding all instances of tag 
 # `unique`
-all_texts = Bs_data.find_all('text')
+# all_texts = Bs_data.find_all('text')
 
 ## Types: HKQuantityTypeIdentifierBodyMassIndex, 
 

@@ -1,0 +1,58 @@
+<HealthData locale="en_US">
+    <ExportDate value="2024-08-16 17:31:39 -0400"/>
+    <Me HKCharacteristicTypeIdentifierDateOfBirth="1990-05-23" HKCharacteristicTypeIdentifierBiologicalSex="HKBiologicalSexMale" HKCharacteristicTypeIdentifierBloodType="HKBloodTypeNotSet" HKCharacteristicTypeIdentifierFitzpatrickSkinType="HKFitzpatrickSkinTypeNotSet" HKCharacteristicTypeIdentifierCardioFitnessMedicationsUse="None"/>
+    <Record type="HKQuantityTypeIdentifierBodyMassIndex" sourceName="Weight Gurus" sourceVersion="2" unit="count" creationDate="2021-06-03 09:19:00 -0400" startDate="2021-06-03 09:14:26 -0400" endDate="2021-06-03 09:14:26 -0400" value="32"/>
+
+    <Record type="HKQuantityTypeIdentifierDistanceCycling" sourceName="Anthony’s Apple Watch" sourceVersion="7.6.2" device="&lt;&lt;HKDevice: 0x3037ad9f0&gt;, name:Apple Watch, manufacturer:Apple Inc., model:Watch, hardware:Watch4,3, software:7.6.2&gt;" unit="mi" creationDate="2021-10-02 08:57:20 -0400" startDate="2021-10-02 08:57:17 -0400" endDate="2021-10-02 08:57:18 -0400" value="2.26054e-15"/>
+
+    <Workout workoutActivityType="HKWorkoutActivityTypeRunning" duration="20.33734016815821" durationUnit="min" sourceName="Nike Run Club: Running Coach" sourceVersion="1612122339" creationDate="2017-03-21 13:09:38 -0400" startDate="2017-03-21 12:49:10 -0400" endDate="2017-03-21 13:09:30 -0400">
+        <MetadataEntry key="HKIndoorWorkout" value="0"/>
+        <MetadataEntry key="HKWasUserEntered" value="0"/>
+        <MetadataEntry key="HKTimeZone" value="America/New_York"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierActiveEnergyBurned" startDate="2017-03-21 12:49:10 -0400" endDate="2017-03-21 13:09:30 -0400" sum="286.976" unit="Cal"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierDistanceWalkingRunning" startDate="2017-03-21 12:49:10 -0400" endDate="2017-03-21 13:09:30 -0400" sum="1.86389" unit="mi"/>
+        <MetadataEntry key="HKIndoorWorkout" value="0"/>
+        <MetadataEntry key="HKWasUserEntered" value="0"/>
+        <MetadataEntry key="HKTimeZone" value="America/New_York"/>
+    </Workout>
+
+    <Workout workoutActivityType="HKWorkoutActivityTypeCycling" duration="191.5833333333333" durationUnit="min" sourceName="Strava" sourceVersion="28310" creationDate="2021-10-30 14:27:57 -0400" startDate="2021-10-02 08:58:04 -0400" endDate="2021-10-02 12:09:39 -0400">
+        <MetadataEntry key="HKIndoorWorkout" value="0"/>
+        <MetadataEntry key="HKMetadataKeySyncVersion" value="1633190996"/>
+        <MetadataEntry key="HKExternalUUID" value="strava://activities/6053254065"/>
+        <MetadataEntry key="HKMetadataKeySyncIdentifier" value="6053254065"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierActiveEnergyBurned" startDate="2021-10-02 08:58:04 -0400" endDate="2021-10-02 12:09:39 -0400" sum="1339.68" unit="Cal"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierDistanceCycling" startDate="2021-10-02 08:58:04 -0400" endDate="2021-10-02 12:09:39 -0400" sum="35.9011" unit="mi"/>
+        <MetadataEntry key="HKIndoorWorkout" value="0"/>
+        <MetadataEntry key="HKMetadataKeySyncVersion" value="1633190996"/>
+        <MetadataEntry key="HKExternalUUID" value="strava://activities/6053254065"/>
+        <MetadataEntry key="HKMetadataKeySyncIdentifier" value="6053254065"/>
+    </Workout>
+
+    <Workout workoutActivityType="HKWorkoutActivityTypeCycling" duration="9.998497865597407" durationUnit="min" sourceName="Anthony’s Apple Watch" sourceVersion="10.6" device="&lt;&lt;HKDevice: 0x3037860d0&gt;, name:Peloton, manufacturer:Peloton, model:com.apple.health.fitnessmachinemodel.indoorbike, localIdentifier:com.healthd.fitnessmachine&gt;" creationDate="2024-08-14 13:00:22 -0400" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400">
+        <MetadataEntry key="HKWeatherTemperature" value="85.676 degF"/>
+        <MetadataEntry key="HKIndoorBikeDistance" value="4499 m"/>
+        <MetadataEntry key="HKTimeZone" value="America/New_York"/>
+        <MetadataEntry key="HKIndoorWorkout" value="1"/>
+        <MetadataEntry key="HKFitnessMachineDuration" value="600 s"/>
+        <MetadataEntry key="HKWeatherHumidity" value="5800 %"/>
+        <MetadataEntry key="HKAverageMETs" value="7.1304 kcal/hr·kg"/>
+        <WorkoutEvent type="HKWorkoutEventTypePause" date="2024-08-14 12:49:44 -0400"/>
+        <WorkoutEvent type="HKWorkoutEventTypeResume" date="2024-08-14 12:50:16 -0400"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierCyclingCadence" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" average="82.4641" minimum="49" maximum="113" unit="count/min"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierDistanceCycling" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" sum="2.79555" unit="mi"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierActiveEnergyBurned" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" sum="94.5629" unit="Cal"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierCyclingPower" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" average="112.24" minimum="51" maximum="273" unit="W"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierCyclingSpeed" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" average="10.4413" minimum="7.56958" maximum="14.9317" unit="mi/hr"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierBasalEnergyBurned" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" sum="21.9976" unit="Cal"/>
+        <WorkoutStatistics type="HKQuantityTypeIdentifierHeartRate" startDate="2024-08-14 12:49:44 -0400" endDate="2024-08-14 13:00:15 -0400" average="125.752" minimum="113" maximum="134" unit="count/min"/>
+        <MetadataEntry key="HKWeatherTemperature" value="85.676 degF"/>
+        <MetadataEntry key="HKIndoorBikeDistance" value="4499 m"/>
+        <MetadataEntry key="HKTimeZone" value="America/New_York"/>
+        <MetadataEntry key="HKIndoorWorkout" value="1"/>
+        <MetadataEntry key="HKFitnessMachineDuration" value="600 s"/>
+        <MetadataEntry key="HKWeatherHumidity" value="5800 %"/>
+        <MetadataEntry key="HKAverageMETs" value="7.1304 kcal/hr·kg"/>
+    </Workout>
+
+</HealthData>
